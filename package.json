@@ -1,0 +1,28 @@
+{
+  "name": "advocates-api",
+  "version": "1.0.0",
+  "description": "REST API to get advocates developers around the world",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "server": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "Ankit Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/apicache": "^1.6.1",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "nodemon": "^2.0.20",
+    "prisma": "^4.4.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "apicache": "^1.6.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "prisma-exclude": "^1.0.2"
+  }
+}
